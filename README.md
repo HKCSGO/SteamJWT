@@ -4,7 +4,7 @@
     SteamJWT is a tool to login using JSON Web Tokens. 
 </p>
 
-## 📖 | Requirements-
+## 📖 | Requirements
 
 - Must be on a Windows PC
 - [Python](https://www.python.org/downloads/)
