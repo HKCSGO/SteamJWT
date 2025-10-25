@@ -3,7 +3,7 @@
 <p align="center">
     SteamJWT is a tool to login using JSON Web Tokens. 
 </p>
-<p>
+<p align="center">
     Forked from: https://github.com/bet3rd/Steam-JWT-Tool
 </p>
 
