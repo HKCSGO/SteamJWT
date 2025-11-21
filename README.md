@@ -27,6 +27,10 @@ To get started with SteamJWT, follow these steps:
 ## 🔻 | Download
 https://github.com/HKCSGO/SteamJWT/releases
 
+## ⚠️ | Troubleshoot
+If steam doesn't work, you can run this in command prompt as administrator:
+`"C:\Program Files (x86)\Steam\bin\steamservice.exe" /repair`
+
 ## 📸 | Screenshots
 
 <img width="393" height="368" alt="image" src="https://github.com/user-attachments/assets/0c5f0a33-b05a-4fce-91a5-f0d1d9e58fd1" />
