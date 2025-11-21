@@ -37,7 +37,7 @@ class App(customtkinter.CTk):
         super().__init__()
 
         # Window configuration
-        self.title("HKCS")
+        self.title("HKCSGO")
         self.geometry("400x350")  # Increased size for better layout
         self.resizable(False, False)
 
@@ -326,3 +326,4 @@ def build_local(crc32, jwt):
 if __name__ == '__main__':
     app = App()
     app.mainloop()
+
