@@ -38,7 +38,7 @@ class App(customtkinter.CTk):
 
         # Window configuration
         self.title("HKCSGO")
-        self.geometry("400x350")  # Increased size for better layout
+        self.geometry("400x425")  # Increased size for better layout
         self.resizable(False, False)
 
         # Main frame for better organization
@@ -53,7 +53,7 @@ class App(customtkinter.CTk):
 
         # Entry field
         self.entry = customtkinter.CTkEntry(
-            main_frame, placeholder_text="Enter Login String", height=35
+            main_frame, placeholder_text="Enter Token String:", height=35
         )
         self.entry.pack(pady=(0, 20), fill="x")
 
@@ -73,11 +73,18 @@ class App(customtkinter.CTk):
         # Reset Steam button
         self.reset_button = customtkinter.CTkButton(
             button_row_frame,
-            text="Reset Steam",
+            text="Delete Token",
             command=self.reset_steam,
             height=40
         )
         self.reset_button.pack(side="left", expand=True, fill="x")
+
+        # Warning label under buttons
+        self.warning_label = customtkinter.CTkLabel(
+            main_frame,
+            text="Warning: If you hit Delete Token\nYou will lose the token permanently and lose access!"
+        )
+        self.warning_label.pack(pady=(0, 10))
 
         # Terminal output box
         self.terminal_output = customtkinter.CTkTextbox(
@@ -85,6 +92,13 @@ class App(customtkinter.CTk):
         )
         self.terminal_output.pack(pady=(0, 0), fill="both", expand=True)
         self.terminal_output.configure(state="disabled")
+
+        # Warning label under buttons
+        self.warning_label = customtkinter.CTkLabel(
+            main_frame,
+            text="After login, make sure you set your status to: OFFLINE"
+        )
+        self.warning_label.pack(pady=(0, 10))
 
     def reset_steam(self):
         path = self.get_steam_install_path()
@@ -326,4 +340,3 @@ def build_local(crc32, jwt):
 if __name__ == '__main__':
     app = App()
     app.mainloop()
-
