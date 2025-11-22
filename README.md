@@ -33,7 +33,7 @@ If steam doesn't work, you can run this in command prompt as administrator:
 
 ## 📸 | Screenshots
 
-<img width="393" height="368" alt="image" src="https://github.com/user-attachments/assets/0c5f0a33-b05a-4fce-91a5-f0d1d9e58fd1" />
+<img width="395" height="446" alt="image" src="https://github.com/user-attachments/assets/a9cbac36-13a7-4906-ab72-7c1519b1a9ab" />
 
 ## License and Copyright
 Released under the [MIT](https://mit-license.org/) license.
