@@ -35,5 +35,8 @@ If steam doesn't work, you can run this in command prompt as administrator:
 
 <img width="395" height="446" alt="image" src="https://github.com/user-attachments/assets/a9cbac36-13a7-4906-ab72-7c1519b1a9ab" />
 
+## ⚠️ | Disclaimer
+I am not responsible for any damages or issues that arise from using this software. Use at your OWN risk!
+
 ## License and Copyright
 Released under the [MIT](https://mit-license.org/) license.
