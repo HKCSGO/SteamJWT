@@ -9,27 +9,30 @@
 
 ## 📖 | Requirements
 
-- Must be on a Windows PC
+- Windows 10 or Newer
 - [Python](https://www.python.org/downloads/)
 
 ## ➕ | Installation
 
 To get started with SteamJWT, follow these steps:
 
-1. **Download Code as ZIP**
+- Download the latest EXE file [here](https://github.com/HKCSGO/SteamJWT/releases).
 
-2. **UnZip the File**
+<b>OR</b>
 
-3. **Run start.cmd**
-
-4. **Paste in the JWT String and Click Login**
+1. **Download source code as a ZIP file.**
+2. **Unzip the file.**
+3. **Double click and run the `start.cmd` file.**
+4. **Paste in the JWT String and click login.**
 
 ## 🔻 | Download
 https://github.com/HKCSGO/SteamJWT/releases
 
 ## ⚠️ | Troubleshoot
-If steam doesn't work, you can run this in command prompt as administrator:
-`"C:\Program Files (x86)\Steam\bin\steamservice.exe" /repair`
+If steam doesn't work, you can run this in command prompt as administrator:<br>
+```bash
+"C:\Program Files (x86)\Steam\bin\steamservice.exe" /repair`
+```
 
 ## 📸 | Screenshots
 
