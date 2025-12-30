@@ -20,6 +20,7 @@ To get started with SteamJWT, follow these steps:
 
 <b>OR</b>
 
+- <b> THIS IS NOT RECOMMENDED </b>
 1. **Download source code as a ZIP file.**
 2. **Unzip the file.**
 3. **Double click and run the `start.cmd` file.**
