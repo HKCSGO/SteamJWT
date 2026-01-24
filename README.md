@@ -1,4 +1,5 @@
 <h1 align="center">SteamJWT</h1>
+<h1 align="center">⚠️ AFTER RECENT STEAM CLIENT SECURITY UPDATES | THIS SOFTWARE DOES NOT WORK AS INTENDED ANYMORE ⚠️</h1>
 
 <p align="center">
     SteamJWT is a tool to login using JSON Web Tokens. 
